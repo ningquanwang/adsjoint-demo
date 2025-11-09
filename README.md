@@ -22,7 +22,17 @@ cd adsjoint-demo
 🪪 Replace YOUR_GITHUB_TOKEN with your GitHub Personal Access Token
 (must include read:packages permission). 
 This allows npm to authenticate with GitHub Packages and download the private SDK.
-### 3️⃣ Install & Run
+### 3️⃣ Add Your Publisher Credentials
+In src/App.jsx, initialize the Adsjoint SDK with your assigned credentials:
+```bash
+initAdsjoint({
+  publisherName: "demo_llm_app",    // unique name of your LLM app (e.g., "ChatGPT", "MyAwesomeBot")
+  publisherId: "01234567890",        // your publisher ID (string), provided by Adsjoint
+  apiKey: "adj_xxxxxxxxxxxxxxxxx",  // your Adsjoint API key, provided by Adsjoint
+});
+```
+💡 These credentials identify your app to the Adsjoint platform and ensure impressions/clicks are properly tracked.
+### 4️⃣ Install & Run
 ```bash
 npm install @adsjoint/sdk
 npm start
