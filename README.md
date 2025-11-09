@@ -15,6 +15,7 @@ git clone https://github.com/adsjoint/adsjoint-demo.git
 cd adsjoint-demo
 ```
 ### 2️⃣ Add Your .npmrc File
+Create a new .npmrc file and open it in your default text editor, paste the following content inside the file:
 ```bash
 @adsjoint:registry=https://npm.pkg.github.com
 //npm.pkg.github.com/:_authToken=YOUR_GITHUB_TOKEN
