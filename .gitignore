@@ -26,3 +26,6 @@ Thumbs.db
 # Optional: lock files for other package managers
 yarn.lock
 pnpm-lock.yaml
+
+# npmrc files
+**.npmrc
