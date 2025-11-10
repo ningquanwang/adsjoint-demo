@@ -1,8 +1,8 @@
-# 💬 Adsjoint Demo App
+# 💬 Adsjoint Demo
 
 A minimal demo showing how to integrate the **@adsjoint/sdk** into an LLM-based chat app. 
 
-> 🧩 Adsjoint helps LLM apps monetize through context-aware inline ads — automatically placed in chat.
+> 🧩 Adsjoint helps LLM apps monetize through context-aware inline ads — automatically placed in chat with smart delivery.
 
 ---
 
@@ -23,7 +23,12 @@ Create a new .npmrc file and open it in your default text editor, paste the foll
 🪪 Replace YOUR_GITHUB_TOKEN with your GitHub Personal Access Token
 (must include read:packages permission). 
 This allows npm to authenticate with GitHub Packages and download the private SDK.
-### 3️⃣ Add Your Publisher Credentials
+### 3️⃣ SDK Integration
+#### 1. Installation
+```bash
+npm install @adsjoint/sdk
+```
+#### 2. Initialization with Your Publisher Credentials
 In src/App.jsx, initialize the Adsjoint SDK with your assigned credentials:
 ```bash
 initAdsjoint({
@@ -33,9 +38,13 @@ initAdsjoint({
 });
 ```
 💡 These credentials identify your app to the Adsjoint platform and ensure impressions/clicks are properly tracked.
-### 4️⃣ Install & Run
+#### 3. Inline Ads Placement
+Insert the Adsjoint ad component where your AI messages are displayed
 ```bash
-npm install @adsjoint/sdk
-npm start
+<InlineAdBanner message={msg} />
+```
+### 4️⃣ Run
+```bash
+  npm start
 ```
 The demo app will start on http://localhost:5173 (if using Vite) or http://localhost:3000 (if using Create React App).
