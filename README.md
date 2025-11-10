@@ -39,7 +39,7 @@ initAdsjoint({
 ```
 💡 These credentials identify your app to the Adsjoint platform and ensure impressions/clicks are properly tracked.
 #### 3. Inline Ads Placement
-Insert the Adsjoint ad component where your AI messages are displayed
+In src/App.jsx, insert the Adsjoint ad component where your AI messages are displayed
 ```bash
 <InlineAdBanner message={msg} />
 ```
