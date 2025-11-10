@@ -48,3 +48,7 @@ In src/App.jsx, insert the Adsjoint ad component where your AI messages are disp
   npm start
 ```
 The demo app will start on http://localhost:5173 (if using Vite) or http://localhost:3000 (if using Create React App).
+
+## 💬 Support
+📧 Email: admin@adsjoint.ai \
+🌐 Website: https://adsjoint.ai (WIP)
