@@ -29,7 +29,7 @@ This allows npm to authenticate with GitHub Packages and download the private SD
 npm install @adsjoint/sdk
 ```
 #### 2. Initialization with Your Publisher Credentials
-In src/App.jsx, initialize the Adsjoint SDK with your assigned credentials:
+In src/App.jsx (or wherever you set up your chat logic), initialize the Adsjoint SDK with your assigned credentials:
 ```bash
 initAdsjoint({
   publisherName: "demo_llm_app",    // unique name of your LLM app (e.g., "ChatGPT", "MyAwesomeBot")
@@ -39,7 +39,7 @@ initAdsjoint({
 ```
 💡 These credentials identify your app to the Adsjoint platform and ensure impressions/clicks are properly tracked.
 #### 3. Inline Ads Placement
-In src/App.jsx, insert the Adsjoint ad component where your AI messages are displayed
+In src/App.jsx (or wherever you set up your chat logic), insert the Adsjoint ad component where your AI messages are displayed
 ```bash
 <InlineAdBanner message={msg} />
 ```
