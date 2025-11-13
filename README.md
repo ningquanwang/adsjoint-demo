@@ -26,6 +26,7 @@ This allows npm to authenticate with GitHub Packages and download the private SD
 ### 3️⃣ SDK Integration
 #### 1. Installation
 ```bash
+npm login --registry=https://npm.pkg.github.com --scope=@adsjoint
 npm install @adsjoint/sdk
 ```
 #### 2. Initialization with Your Publisher Credentials
