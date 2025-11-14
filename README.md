@@ -7,9 +7,20 @@ A minimal demo showing how to integrate the **@adsjoint/sdk** into an LLM-based 
 ---
 ## 🖼️ Live Example — What Inline Ads Look Like
 Here’s an example of what the Adsjoint inline ad looks like inside a chat interface:
-<img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/fa937877-7e3e-479f-a74a-54e2d946a068" />
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/fa937877-7e3e-479f-a74a-54e2d946a068" />
+<br><br>
+## 🤝 Adsjoint Early Partner Program
+Be one of the first LLM apps to integrate Adsjoint, and unlock permanent benefits.
+### 🎁 Early Partner Benefits
+1. Highest revenue share in the network (locked permanently)
+2. Top priority for the first real advertisers once campaigns begin 
+3. Influence product decisions (ad UI, frequency rules, categories)
 
-
+### 🛠️ What you get today
+1. High-quality demo ads (travel, finance, tech, food, fitness, etc.)
+2. Context-aware inline ads insertion
+3. Real event tracking and analysis report.
+<br><br>
 ## 🚀 Quick Start
 ### 0️⃣ Get Access
 Contact **admin@adsjoint.ai** to request your publisher credentials and API key (required for SDK access and package installation).
@@ -79,24 +90,6 @@ export default function App() {
   );
 }
 ```
-
-
-## 🤝 Adsjoint Early Partner Program
-Be one of the first LLM apps to integrate Adsjoint, and unlock permanent benefits.
-### 🎁 Early Partner Benefits
-1. Highest revenue share in the network (locked permanently)
-2. Top priority for the first real advertisers once campaigns begin 
-3. Influence product decisions (ad UI, frequency rules, categories)
-
-### 🛠️ What you get today
-1. High-quality demo ads (travel, finance, tech, food, fitness, etc.)
-2. Context-aware inline ads insertion
-3. Real event tracking and analysis report. 
-
-
-
-
-
 ## 💬 Support
 📧 Email: admin@adsjoint.ai \
 🌐 Website: https://adsjoint.ai (WIP)
