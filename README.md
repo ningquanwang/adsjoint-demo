@@ -2,7 +2,7 @@
 
 A minimal demo showing how to integrate the **@adsjoint/sdk** into an LLM-based chat app. 
 
-> 🧩 Adsjoint helps LLM apps monetize through context-aware inline ads — automatically placed in chat with smart delivery.
+> 🧩 Adsjoint helps LLM apps monetize through context-aware ads — automatically placed in chat with smart delivery.
 
 ---
 ## 🖼️ Live Example — What Inline Ads Look Like
