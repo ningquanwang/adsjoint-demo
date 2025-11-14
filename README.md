@@ -5,6 +5,10 @@ A minimal demo showing how to integrate the **@adsjoint/sdk** into an LLM-based 
 > 🧩 Adsjoint helps LLM apps monetize through context-aware inline ads — automatically placed in chat with smart delivery.
 
 ---
+## 🖼️ Live Example — What Inline Ads Look Like
+Here’s an example of what the Adsjoint inline ad looks like inside a chat interface:
+<img width="500" height="400" alt="image" src="https://github.com/user-attachments/assets/fa937877-7e3e-479f-a74a-54e2d946a068" />
+
 
 ## 🚀 Quick Start
 ### 0️⃣ Get Access
@@ -48,7 +52,50 @@ In src/App.jsx (or wherever you set up your chat logic), insert the Adsjoint ad 
 ```bash
   npm start
 ```
-The demo app will start on http://localhost:5173 (if using Vite) or http://localhost:3000 (if using Create React App).
+### Minimal Usage Example
+```js
+import { initAdsjoint, initAdLogic, InlineAdBanner } from "@adsjoint/sdk";
+
+initAdsjoint({
+  publisherName: "demo_llm_app",
+  publisherId: "01234567890",
+  apiKey: "adj_xxxxxxxxxxxxxxxxx"
+});
+
+initAdLogic(true);
+
+export default function App() {
+  const [messages, setMessages] = useState([]);
+
+  return (
+    <div>
+      {messages.map((msg, i) => (
+        <div key={i}>
+          <MessageBubble msg={msg} />
+          <InlineAdBanner message={msg} />
+        </div>
+      ))}
+    </div>
+  );
+}
+```
+
+
+## 🤝 Adsjoint Early Partner Program
+Be one of the first LLM apps to integrate Adsjoint, and unlock permanent benefits.
+### 🎁 Early Partner Benefits
+1. Highest revenue share in the network (locked permanently)
+2. Top priority for the first real advertisers once campaigns begin 
+3. Influence product decisions (ad UI, frequency rules, categories)
+
+### 🛠️ What you get today
+1. High-quality demo ads (travel, finance, tech, food, fitness, etc.)
+2. Context-aware inline ads insertion
+3. Real event tracking and analysis report. 
+
+
+
+
 
 ## 💬 Support
 📧 Email: admin@adsjoint.ai \
