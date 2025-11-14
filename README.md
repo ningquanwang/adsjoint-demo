@@ -12,9 +12,10 @@ Here’s an example of what the Adsjoint inline ad looks like inside a chat inte
 ## 🤝 Adsjoint Early Partner Program
 Be one of the first LLM apps to integrate Adsjoint, and unlock permanent benefits.
 ### 🎁 Early Partner Benefits
-1. Highest revenue share in the network (locked permanently)
-2. Top priority for the first real advertisers once campaigns begin 
-3. Influence product decisions (ad UI, frequency rules, categories)
+1. 100% revenue share during the testing period
+2. Highest revenue share after GA (locked permanently)
+3. Top priority for the first real advertisers once campaigns begin 
+4. Influence product decisions (ad UI, frequency rules, categories)
 
 ### 🛠️ What you get today
 1. High-quality demo ads (travel, finance, tech, food, fitness, etc.)
