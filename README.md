@@ -51,7 +51,6 @@ In src/App.jsx (or wherever you set up your chat logic), initialize the Adsjoint
 initAdsjoint({
   publisherName: "demo_llm_app",    // unique name of your LLM app (e.g., "ChatGPT", "MyAwesomeBot")
   publisherId: "01234567890",        // your publisher ID (string), provided by Adsjoint
-  apiKey: "adj_xxxxxxxxxxxxxxxxx",  // your Adsjoint API key, provided by Adsjoint
 });
 ```
 💡 These credentials identify your app to the Adsjoint platform and ensure impressions/clicks are properly tracked.
