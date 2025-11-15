@@ -27,9 +27,8 @@ export default function App() {
   useEffect(() => {
     // Step 1 (Required): initialize the Adsjoint SDK with your app info
     initAdsjoint({
-      publisherName: "demo_llm_app",    // unique name of your LLM app (e.g., "ChatGPT", "MyAwesomeBot")
-      publisherId: "01234567890",        // your publisher ID (string), provided by Adsjoint
-      apiKey: "adj_xxxxxxxxxxxxxxxxx",  // your Adsjoint API key, provided by Adsjoint
+      publisherName: "test_llm_1",    // unique name of your LLM app (e.g., "ChatGPT", "MyAwesomeBot")
+      publisherId: "6824750189",        // your publisher ID (string), provided by Adsjoint
     });
 
     // Step 2 (Optional): enable/disable ads globally (by default, ads are enabled)

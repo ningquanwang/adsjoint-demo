@@ -70,8 +70,7 @@ import { initAdsjoint, initAdLogic, InlineAdBanner } from "@adsjoint/sdk";
 
 initAdsjoint({
   publisherName: "demo_llm_app",
-  publisherId: "01234567890",
-  apiKey: "adj_xxxxxxxxxxxxxxxxx"
+  publisherId: "01234567890"
 });
 
 initAdLogic(true);
